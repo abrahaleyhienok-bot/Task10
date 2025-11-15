@@ -1,0 +1,3 @@
+module eqiupment {
+    exports Infantry;
+}

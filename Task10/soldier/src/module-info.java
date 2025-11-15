@@ -1,0 +1,3 @@
+module soldier {
+    exports division;
+}
