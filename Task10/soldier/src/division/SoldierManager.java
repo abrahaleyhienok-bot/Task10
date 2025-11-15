@@ -12,5 +12,10 @@ public class SoldierManager {
         this.soldierTwoName = s2Name;
         this.soldierTwoRank = s2Rank;
     }
-    
+
+    public void displaySoldiers() {
+        System.out.println("=== Registered Soldiers ===");
+        System.out.println("- " + soldierOneRank + " " + soldierOneName);
+        System.out.println("- " + soldierTwoRank + " " + soldierTwoName);
+    }
 }
