@@ -10,5 +10,12 @@ public class Main {
                 "Samuel Haile", "Lieutenant"
         );
 
+        equipmentManager equipmentManager = new equipmentManager(
+                "Tank", "Assault Rifle"
+        );
+
+        System.out.println("===== MILITARY DATABASE SUMMARY =====");
+        soldierManager.displaySoldiers();
+        equipmentManager.displayEquipment();
     }
 }
