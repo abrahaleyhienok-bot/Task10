@@ -14,5 +14,8 @@ public class Main {
                 "Tank", "Assault Rifle"
         );
 
+        System.out.println("===== MILITARY DATABASE SUMMARY =====");
+        soldierManager.displaySoldiers();
+        equipmentManager.displayEquipment();
     }
 }
